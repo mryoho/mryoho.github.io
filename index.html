@@ -1,262 +1,62 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Gridism • a simple responsive CSS grid by @cobyism</title>
-  
-  <script src="//cdn.optimizely.com/js/2350390699.js"></script>
-  
-  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Montserrat:700|Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="gridism.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="wrap wider">
-
-  <header>
-    <div class="grid">
-      <div class="unit whole center-on-mobiles">
-        <h1><a href="http://cobyism.com/gridism">gridism.</a></h1>
-        <p class="lead">A simple responsive CSS&nbsp;grid by&nbsp;<a href="http://cobyism.com">@cobyism</a>.</p>
-        <p>
-          <a href="https://github.com/cobyism/gridism" class="button">View on GitHub</a>
-          <a href="https://twitter.com/cobyism" class="button" target="_blank">Follow @cobyism</a>
-        </p>
-      </div>
-    </div>
-  </header>
-
-  <section class="instructions">
-    <div class="grid">
-      <div class="unit one-third">
-        <h2>Simple</h2>
-        <p>
-          Each <code>.grid</code> element is a horizontal row which can contain
-          <code>.unit</code> elements of various widths.
-          Width combinations are illustrated&nbsp;below.
-        </p>
-      </div>
-      <div class="unit one-third">
-        <h2>Responsive</h2>
-        <p>
-          Units get stacked on screens 568px or smaller.
-          Grids in a <code>.wrap</code> have maximum widths of 978px, or 1140px
-          with the addition of <code>.wider</code>.
-        </p>
-      </div>
-      <div class="unit one-third">
-        <h2>Easy</h2>
-        <p>
-          All units have even inner and outer gutters.
-          You can turn gutters off with <code>.no-gutters</code>.
-          There are also <a href="https://github.com/cobyism/gridism/blob/gh-pages/gridism.css">a few other</a> commonly needed&nbsp;classes.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="demo">
-    <div class="grid">
-      <div class="unit whole">
-        <pre>.whole</pre>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit half">
-        <pre>.half</pre>
-      </div>
-      <div class="unit half">
-        <pre>.half</pre>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit one-third">
-        <pre>.one-third</pre>
-      </div>
-      <div class="unit two-thirds">
-        <pre>.two-thirds</pre>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit one-quarter">
-        <pre>.one-quarter</pre>
-      </div>
-      <div class="unit three-quarters">
-        <pre>.three-quarters</pre>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit one-fifth">
-        <pre>.one-fifth</pre>
-      </div>
-      <div class="unit four-fifths">
-        <pre>.four-fifths</pre>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit two-fifths">
-        <pre>.two-fifths</pre>
-      </div>
-      <div class="unit three-fifths">
-        <pre>.three-fifths</pre>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit golden-large">
-        <pre>.golden-large</pre>
-      </div>
-      <div class="unit golden-small">
-        <pre>.golden-small</pre>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit one-quarter align-right center-on-mobiles">
-        <h2>Nested grids</h2>
-        <p>Nested grids also work, but the markup gets gnarly pretty&nbsp;quickly.</p>
-      </div>
-      <div class="unit three-quarters">
-        <div class="grid">
-          <div class="unit whole">
-            <p class="align-center">Gridception!</p>
-          </div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Patrick Yoho</title>
+        
+        <style>
+            #navbar {
+                background-color:lightgray;
+            }
+            body {
+                background-color:rgb(235, 242, 255);
+            }
+            #main {
+                background-color:rgb(61, 177, 255);
+            }
+            #footer {
+                background-color:gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="./contact.html">Contact</a></a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Social Media</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+            </ul>
         </div>
-        <div class="grid">
-          <div class="unit one-third">
-            <pre>★</pre>
-          </div>
-          <div class="unit two-thirds">
-            <div class="grid">
-              <div class="unit whole">
-                <p class="align-center">Gridception!</p>
-              </div>
-            </div>
-            <div class="grid">
-              <div class="unit two-fifths">
-                <pre>★</pre>
-              </div>
-              <div class="unit three-fifths">
-                <pre>★</pre>
-              </div>
-            </div>
-          </div>
+        
+        <div id="main">
+            <h1>Patrick Yoho</h1>
+            <p>
+                Founding Computer Science Teacher at Alpha Cindy Avitia
+            </p>
+            
+            <img src="https://www.kasandbox.org/programming-images/food/croissant.png" alt="Croissants Image Placeholder">
+            
+            
+            
+            <h2>Where I'm From</h2>
+            <p>
+                Born and raised in Colorado and Oregon. Majored in computer science, French, and engineering physics at Whitworth University. Studied abroad at Institut National de Sciences Appliques de Lyon in Lyon France and traveled Europe extensively. Lived, taught, and coached teachers in urban and rural Mississippi.
+            </p>
+            
+            <h2>What I Do Now</h2>
+            <p>
+                I currently serve as the founding computer science teacher at Alpha Cindy Avitia High School, where I have the joy of working with students from all over East San Jose to discover more about computer science. I also find time to mountain bike, spend time with close friends, and occassionally play some guitar.
+            </p>
+            
         </div>
-        <div class="grid">
-          <div class="unit four-fifths">
-            <div class="grid">
-              <div class="unit whole">
-                <p class="align-center">Gridception!</p>
-              </div>
-            </div>
-            <div class="grid">
-              <div class="unit one-quarter">
-                <pre>★</pre>
-              </div>
-              <div class="unit one-quarter">
-                <pre>★</pre>
-              </div>
-              <div class="unit one-quarter">
-                <pre>★</pre>
-              </div>
-              <div class="unit one-quarter">
-                <pre>★</pre>
-              </div>
-            </div>
-          </div>
-          <div class="unit one-fifth">
-            <pre>★</pre>
-          </div>
+        
+        <div id="footer">
+            
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="usage">
-    <div class="grid">
-      <div class="unit whole">
-        <h2>Download</h2>
-        <p class="lead">You have two main options for using Gridism in your&nbsp;project.</p>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit one-third">
-        <h3>A. Bower</h3>
-        <p>Gridism can be installed using the <a href="http://bower.io">Bower</a> package&nbsp;manager.</p>
-        <pre><code>bower install gridism</code></pre>
-      </div>
-      <div class="unit one-third">
-        <h3>B. Manual</h3>
-        <p><a href="https://github.com/cobyism/gridism/archive/gh-pages.zip">Download the ZIP</a>, extract the source code, and copy <code>gridism.css</code> into your project’s&nbsp;directory.</p>
-      </div>
-      <div class="unit one-third">
-        <h3>Elsewise</h3>
-        <p>Of course, you could also clone <a href="https://github.com/cobyism/gridism">the repository</a> using your terminal, or even add it as a <a href="http://git-scm.com/book/en/Git-Tools-Submodules">submodule</a> of your&nbsp;project.</p>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit whole">
-        <h2>Installation</h2>
-        <p class="lead">Once you’ve acquired the Gridism source code, there’s a couple of other things you’ll&nbsp;probably want&nbsp;to&nbsp;do.</p>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit whole">
-        <h3>1. Stylesheet</h3>
-        <p>Add the following stylesheet to the <code>&lt;head&gt;</code> section of your project’s HTML. If you didn’t use Bower, you may need to adjust the path to the CSS file to match your file&nbsp;structure.</p>
-        <pre><code>&lt;link rel="stylesheet" href="bower_components/gridism/gridism.css"&gt;</code></pre>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit whole">
-        <h3>2. Viewport</h3>
-        <p>Set the scale of your viewport to the width of the device. Placing the following tag in the <code>&lt;head&gt;</code> of your HTML ensures the viewport doesn’t load zoomed-out on mobiles and&nbsp;tablets.</p>
-        <pre><code>&lt;meta name="viewport" content="width=device-width,initial-scale=1"&gt;</code></pre>
-      </div>
-    </div>
-  </section>
 
-  <footer>
-    <div class="grid">
-      <div class="unit half">
-        <div class="center-on-mobiles">
-          <p>© Coby Chapple — All rights reserved.</p>
-        </div>
-      </div>
-      <div class="unit half">
-        <div class="align-right center-on-mobiles">
-          <p>This project is <a href="https://github.com/cobyism/gridism">open-source</a> and accepting pull&nbsp;requests. Fork&nbsp;at&nbsp;will.</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script type="text/javascript">
-    var _gauges = _gauges || [];
-    (function() {
-      var t   = document.createElement('script');
-      t.type  = 'text/javascript';
-      t.async = true;
-      t.id    = 'gauges-tracker';
-      // Please change this line below to your own account if you’re using this code,
-      // otherwise I get to see all the analytics for your site.
-      t.setAttribute('data-site-id', '50ed90bdf5a1f50492000007');
-      t.src = '//secure.gaug.es/track.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(t, s);
-    })();
-  </script>
-  
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
-    // Please change this to your own account if you’re using this code,
-    // otherwise I get to see all the analytics for your site.
-    ga('create', 'UA-31312255-3', 'auto');
-    ga('send', 'pageview');
-  </script>
-  
-</body>
+    </body>
 </html>
