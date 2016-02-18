@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style>
+  /*Reset CSS below -- this gets rid of a lot of cross-browser bugs*/
+  /************  DO NOT TOUCH ANY OF THE CSS BELOW ***************/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+  /**************  END OF RESET CSS   **************/
+
+
+  </style>
+  <style type="text/css" media="screen">
+    body {
+      background-color: gray;
+      padding:5px;
+      color:white;
+      font-family: Verdana;
+    }
+
+    .grid {
+      background-color: white;
+      border:1px solid black;
+      display: inline-block;
+      margin:8px;
+    }
+
+    #carousel {
+      background-color: #ff6600;
+      margin:10px;
+      padding:15px;
+    }
+
+    {
+      list-style: none;
+      text-align: center;
+      color:red;
+
+    }
+
+    .nav li {
+      line-height: 40px;
+      padding:20px;
+      list-style: none;
+      display: inline-block;
+      background-color: white;
+    }
+
+    /* Select all child links in a nav element */
+    .nav a {
+      text-decoration: none;
+    }
+
+    body {
+      font-family: Verdana;
+      background-color:#C2C2C2;
+    }
+
+    .navbar-outside {
+      display:block;
+      background-color: #313732;
+      height:80px;
+    }
+
+    .navbar {
+      min-width:600px;
+      max-width:800px;
+      margin: 0 auto;
+    }
+
+    .navigation li {
+      padding: 30px 15px;
+      list-style: none;
+      text-decoration: none;
+      float:left;
+      height: 20px;
+    }
+
+    .navigation li a {
+      text-decoration: none;
+      color:#FFFFFF;
+    }
+
+    .navigation li:hover {
+      background-color: #F26101;
+    }
+
+
+    .main {
+      display:block;
+      clear: left;
+      min-width: 600px;
+      max-width: 800px;
+      height:500px;
+      margin:0 auto;
+    }
+
+    .main-page{
+      float:right;
+      background-color:#E0E0E0;
+      height:100%;
+      width:75%;
+      box-sizing:border-box;
+    }
+
+    .sidebar {
+      box-sizing:border-box;
+      padding:10px;
+      float:left;
+      width:25%;
+      height:100%;
+      background-color: #059D8E;
+    }
+
+    .footer{
+      width:100%;
+      background-color: #313732;
+      height:50px;
+      clear:both;
+    }
+
+
+    .main-title {
+      margin: 10px 15px;
+      font-size: 30px;
+    }
+
+    .left-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:20px;
+    }
+
+    .right-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:20px;
+    }
+
+    .sub-title {
+      text-align: center;
+    }
+
+    .text-info {
+      font-size: 0.8em;
+      margin: 20px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="navbar-outside">
+    <div class="navbar">
+      <ul class="navigation">
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="contact.html">Contact</a></a></li>
+          <li><a href="">About</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="">Social Media</a></li>
+          <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="main">
+    <div id="carousel">
+      <h2>My Work</h2>
+        <!-- The div below shows an Embedded Scratch Project -->
+        <div class="grid">
+          <iframe allowtransparency="true" width="350" height="300" src="//scratch.mit.edu/projects/embed/87987125/?autostart=false" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="grid">
+          <iframe allowtransparency="true" width="350" height="300" src="//scratch.mit.edu/projects/embed/98235988/?autostart=false" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!-- The div below is a screenshot of a document that you can click on to get to the document-->
+        <div class="grid">
+          <a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-shooting-star/6482264175542272"><img src="./img/portfolio/project_shoothing_star.png" alt="Project Shooting Star"></a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
