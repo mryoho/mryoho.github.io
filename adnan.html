@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mr. Pirzada's Web Page</title>
+
+  <style>
+    body {
+      font-family: Verdana;
+      background-color:#C2C2C2;
+    }
+
+    .navbar-outside {
+      display:block;
+      background-color: #313732;
+      height:80px;
+    }
+
+    .navbar {
+      min-width:600px;
+      max-width:800px;
+      margin: 0 auto;
+    }
+
+    .navigation li {
+      padding: 30px 15px;
+      list-style: none;
+      text-decoration: none;
+      float:left;
+      height: 20px;
+    }
+
+    .navigation li a {
+      text-decoration: none;
+      color:#FFFFFF;
+    }
+
+    .navigation li:hover {
+      background-color: #F26101;
+    }
+
+
+    .main {
+      display:block;
+      clear: left;
+      min-width: 600px;
+      max-width: 800px;
+      height:500px;
+      margin:0 auto;
+    }
+
+    .main-page{
+      float:right;
+      background-color:#E0E0E0;
+      height:100%;
+      width:75%;
+      box-sizing:border-box;
+    }
+
+    .sidebar {
+      box-sizing:border-box;
+      padding:10px;
+      float:left;
+      width:25%;
+      height:100%;
+      background-color: #059D8E;
+    }
+
+    .footer{
+      width:100%;
+      background-color: #313732;
+      height:50px;
+      clear:both;
+    }
+
+    .sidebar-nav{
+      margin: 15px 0px;
+      color:#FFFFFF;
+    }
+
+    .sidebar li {
+      margin: 20px 5px 0px;
+    }
+
+    .sidebar ul ul li{
+      margin: 10px 15px 0px;
+      font-size:0.8em;
+    }
+
+    .sidebar ul ul li a{
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+
+    .sidebar ul ul li a:hover{
+      color: #F26101;
+    }
+
+    .ann-arbor-image {
+      height:300px;
+      width:100%;
+      background-image:url(http://www.panicstream.com/vault/wp-content/uploads/2012/10/1996-michigan.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 300px;
+
+    }
+
+    .main-title {
+      margin: 10px 15px;
+      font-size: 30px;
+    }
+
+    .left-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:20px;
+    }
+
+    .right-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:20px;
+    }
+
+    .sub-title {
+      text-align: center;
+    }
+
+    .text-info {
+      font-size: 0.8em;
+      margin: 20px;
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="navbar-outside">
+    <div class="navbar">
+      <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Social Media</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="main">
+    <div class="sidebar">
+      <ul class="sidebar-nav">
+        <li><strong>Recent Blog Posts</strong></li>
+        <ul>
+          <li><a href="#">August 2015</a></li>
+          <li><a href="#">July 2015</a></li>
+          <li><a href="#">June 2015</a></li>
+        </ul>
+        <li><strong>Recent Projects</strong></li>
+        <ul>
+          <li><a href="#">Repurposing Computers</a></li>
+        </ul>
+      </ul>
+    </div>
+    <div class="main-page">
+      <div class="ann-arbor-image"></div>
+      <h1 class="main-title">Mr. Pirzada's Homepage</h1>
+      <div class="left-panel">
+        <h2 class="sub-title">My Background</h2>
+        <p class="text-info">I grew up in Ohio, went to school at the University of Michigan (Go Blue), and then taught in Mississippi and Tennessese.
+      </div>
+      <div class="right-panel">
+        <h2 class="sub-title">What I Do Now</h2>
+        <p class="text-info">I make software for schools and help teach computer science to the next generation of computer engineers!
+      </div>
+
+    </div>
+    <div class="footer">
+    </div>
+  </div>
+
+
+  
+</body>
+</html>
